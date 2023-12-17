@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}
+about
+{% endblock %}
+
+{% block content %}
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<style>
+    .all{
+        font-family: Arial, sans-serif;
+        display: inline;
+    }
+    h1{
+        font-weight: bold;
+    }
+    img{
+        width: 20%;
+        border-radius: 100%;
+    }
+    .soc{
+        gap: 10px;
+        display: flex;
+    }
+    a{
+        font-size:30px; 
+        color: black;
+        cursor: pointer;
+    }
+    a:hover{
+        top: 10px;
+    }
+</style>
+    <div class="all">
+        <img src="https://sun1-21.userapi.com/s/v1/ig2/a2VEfcP4x1_VAaQLvwWIX6IBAY11x2aGDqc3xdhj7kdKX4mk6PYXy1LEDdcaEXXMwAVBShcgESlAaZXjgtRXPkjL.jpg?size=200x200&quality=95&crop=0,324,1789,1789&ava=1" alt="">
+        <h1>Муравьев Даниил</h1>
+        <div class="about">
+            <p>Программист</p>
+        </div>
+        <div class="soc">
+            <a href="https://github.com/K1netis/"><i class='fa fa-github'></i></a>
+        </div>
+    </div>
+{% endblock %}
